@@ -1,0 +1,58 @@
+[
+  {
+    "user": "Mark Webber",
+    "avatar": "avatar-mark-webber.webp",
+    "read": "false",
+    "action": "reacted to your recent post",
+    "location": "My first tournament today!",
+    "date": "1m ago"
+  },
+  {
+    "user": "Angela Gray",
+    "avatar": "avatar-angela-gray.webp",
+    "read": "false",
+    "action": "followed you",
+    "location": "",
+    "date": "5m ago"
+  },
+  {
+    "user": "Jacob Thompson",
+    "avatar": "avatar-jacob-thompson.webp",
+    "read": "false",
+    "action": "has joined your group",
+    "location": "Chess Club",
+    "date": "1 day ago"
+  },
+  {
+    "user": "Rizky Hasanuddin",
+    "avatar": "avatar-rizky-hasanuddin.webp",
+    "read": "true",
+    "action": "sent you a private message",
+    "location": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "date": "5 days ago"
+  },
+  {
+    "user": "Kimberly Smith",
+    "avatar": "avatar-kimberly-smith.webp",
+    "read": "true",
+    "action": "commented on your picture",
+    "location": "url",
+    "date": "1 week ago"
+  },
+  {
+    "user": "Nathan Peterson",
+    "avatar": "avatar-nathan-peterson.webp",
+    "read": "true",
+    "action": "reacted to your recent post",
+    "location": "5 end-game strategies to increase your win rate",
+    "date": "2 weeks ago"
+  },
+  {
+    "user": "Anna Kim",
+    "avatar": "avatar-anna-kim.webp",
+    "read": "true",
+    "action": "left the group",
+    "location": "Chess Club",
+    "date": "2 weeks ago"
+  }
+]

@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from "react";
+import Notification from "./components/Notification";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [notifications, setNotifications] = useState([]);
 
+  useEffect(() => {
+    fetch("notifications.json")
+      .then((res) => res.json())
+      .then((data) => setNotifications(data));
+  }, []);
+
+  console.log(notifications);
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <main>
+      <header>
+        <h1>
+          Notifications <span>3</span>
+        </h1>
+        <button>Mark all as read</button>
+      </header>
+      <ul>
+        {notifications.map((elem, index) => (
+          <li>
+            <Notification key={index} notification={elem}></Notification>
+          </li>
+        ))}
+      </ul>
+    </main>
+  );
 }
 
-export default App
+export default App;
