@@ -12,21 +12,23 @@ function App() {
 
   console.log(notifications);
   return (
-    <main>
+    <>
       <header>
         <h1>
-          Notifications <span>3</span>
+          Notifications <span className="unread-notifications">3</span>
         </h1>
         <button>Mark all as read</button>
       </header>
-      <ul>
-        {notifications.map((elem, index) => (
-          <li>
-            <Notification key={index} notification={elem}></Notification>
-          </li>
-        ))}
-      </ul>
-    </main>
+      <main>
+        <ul>
+          {notifications.map((elem, index) => (
+            <li>
+              <Notification key={index} notification={elem}></Notification>
+            </li>
+          ))}
+        </ul>
+      </main>
+    </>
   );
 }
 

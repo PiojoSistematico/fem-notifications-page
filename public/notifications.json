@@ -1,5 +1,6 @@
 [
   {
+    "type": "reaction",
     "user": "Mark Webber",
     "avatar": "avatar-mark-webber.webp",
     "read": "false",
@@ -8,6 +9,7 @@
     "date": "1m ago"
   },
   {
+    "type": "follower",
     "user": "Angela Gray",
     "avatar": "avatar-angela-gray.webp",
     "read": "false",
@@ -16,6 +18,7 @@
     "date": "5m ago"
   },
   {
+    "type": "groupStatus",
     "user": "Jacob Thompson",
     "avatar": "avatar-jacob-thompson.webp",
     "read": "false",
@@ -24,6 +27,7 @@
     "date": "1 day ago"
   },
   {
+    "type": "privateMessage",
     "user": "Rizky Hasanuddin",
     "avatar": "avatar-rizky-hasanuddin.webp",
     "read": "true",
@@ -32,14 +36,16 @@
     "date": "5 days ago"
   },
   {
+    "type": "comment",
     "user": "Kimberly Smith",
     "avatar": "avatar-kimberly-smith.webp",
     "read": "true",
     "action": "commented on your picture",
-    "location": "url",
+    "location": "image-chess.webp",
     "date": "1 week ago"
   },
   {
+    "type": "reaction",
     "user": "Nathan Peterson",
     "avatar": "avatar-nathan-peterson.webp",
     "read": "true",
@@ -48,6 +54,7 @@
     "date": "2 weeks ago"
   },
   {
+    "type": "groupStatus",
     "user": "Anna Kim",
     "avatar": "avatar-anna-kim.webp",
     "read": "true",
