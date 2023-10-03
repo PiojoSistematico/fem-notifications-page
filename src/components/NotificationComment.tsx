@@ -1,4 +1,4 @@
-import redDot from "../../public/circle-solid.svg";
+import redDot from "../assets/images/circle-solid.svg";
 
 type NotificationProps = {
   notification: {
@@ -36,11 +36,7 @@ const NotificationComment: React.FunctionComponent<NotificationProps> = ({
             />
           </p>
           <a href="">
-            <img
-              src={`../../public/${notification.location}`}
-              alt=""
-              className="img-comment"
-            />
+            <img src={notification.location} alt="" className="img-comment" />
           </a>
         </div>
 

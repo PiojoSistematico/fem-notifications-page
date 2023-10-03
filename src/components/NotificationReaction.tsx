@@ -1,4 +1,4 @@
-import redDot from "../../public/circle-solid.svg";
+import redDot from "../assets/images/circle-solid.svg";
 
 type NotificationProps = {
   notification: {
